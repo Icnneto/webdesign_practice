@@ -15,7 +15,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/worldwide 1 (Traced).svg" />
 </head>
 
-<body class="min-h-max bg-background font-main m-2">
+<body class="min-h-max bg-background font-main">
 
     <nav class="mt-12 mx-8 mb-16 lg:mt-6 lg:mx-16 lg:mb-24">
         <ul class="flex justify-between items-center">
@@ -61,7 +61,7 @@
                     </span>
                 </li>
                 <li class="text-sm text-background lg:text-base">
-                    <button type="button" class="bg-red p-2 rounded-lg lg:p-3 lg:cursor-pointer lg:hover:bg-red/90">Sign
+                    <button type="button" class="bg-red p-2 shadow-md rounded-lg lg:p-3 lg:cursor-pointer lg:hover:bg-red/90">Sign
                         Up</button>
                 </li>
             </ul>
@@ -121,28 +121,28 @@
 
         <div class="hidden lg:block lg:px-8">
             <ul class="flex flex-row justify-between">
-                <li class="flex flex-col text-left p-4 w-1/5">
+                <li class="flex flex-col text-left p-4 w-1/5 cursor-pointer">
                     <h3 class="text-red font-bold text-6xl">400+</h3>
                     <h3 class="text-title font-medium text-xl mt-3 mb-3">Completed Projects</h3>
                     <p class="text-paragraph text-base">
                         We've helped build over 400 amazing projects.
                     </p>
                 </li>
-                <li class="flex flex-col text-left p-4 w-1/5">
+                <li class="flex flex-col text-left p-4 w-1/5 cursor-pointer">
                     <h3 class="text-red font-bold text-6xl">100+</h3>
                     <h3 class="text-title font-medium text-xl mt-3 mb-3">Team Members</h3>
                     <p class="text-paragraph text-base">
                         We have over 100 team members who genuinely care about our clients.
                     </p>
                 </li>
-                <li class="flex flex-col text-left p-4 w-1/5">
+                <li class="flex flex-col text-left p-4 w-1/5 cursor-pointer">
                     <h3 class="text-red font-bold text-6xl">20k</h3>
                     <h3 class="text-title font-medium text-xl mt-3 mb-3">Downloads</h3>
                     <p class="text-paragraph text-base">
                         Our projects available in app stores have been downloaded over 20,000 times.
                     </p>
                 </li>
-                <li class="flex flex-col text-left p-4 w-1/5">
+                <li class="flex flex-col text-left p-4 w-1/5 cursor-pointer">
                     <h3 class="text-red font-bold text-6xl">500+</h3>
                     <h3 class="text-title font-medium text-xl mt-3 mb-3">5-Star Reviews</h3>
                     <p class="text-paragraph text-base">
@@ -218,17 +218,29 @@
 
         <section class="flex flex-col items-center text-center min-h-full bg-red/5 rounded-2xl p-8 lg:p-18">
             <h5 class="text-base text-red lg:font-semibold">See what our team members say about us</h5>
-            <h1 class="text-xl text-title font-semibold my-8 lg:text-5xl lg:font-medium lg:my-16">OptimusTech cares about the health of its employees and always strives to provide us with all kinds of support.</h1>
+            <h1 class="text-xl text-title font-semibold my-8 lg:text-5xl lg:font-normal lg:my-16">OptimusTech cares about the health of its employees and always strives to provide us with all kinds of support.</h1>
             <img src="assets/Avatar.svg" class="lg:w-[8%]" alt="avatar of a woman"/>
             <h5 class="text-title text-base font-semibold my-2 lg:text-xl lg:my-4">Julie Adams</h5>
             <p class="text-paragraph font-light text-xs lg:text-lg">Web Developer</p>
         </section>
-
-
     </main>
-    <footer class="">
 
+    <footer class="mt-12 min-h-full max-w-full bg-footer flex flex-col gap-y-8 items-center p-8 lg:mt-8 lg:p-12 lg:gap-y-12">
+        <div class="flex flex-col gap-y-2 items-center text-center">
+            <h2 class="text-xl text-title font-semibold lg:text-4xl lg:font-normal">Stay up to date with our opportunities</h2>
+            <p class="text-paragraph font-light text-sm lg:text-lg">Be the first to know when new positions open up!</p>
+        </div>
+        <div class="flex flex-row gap-x-2">
+            <input type="text" placeholder="Your e-mail" class="
+                w-3/4 bg-background p-2 rounded-xl border border-slate-300 shadow-md hover:border-red hover:ring-1 hover:ring-red focus:outline-hidden focus:border-red focus:ring-1 focus:ring-red
+                placeholder:text-xs placeholder:text-paragraph/50 lg:w-[85%] lg:placeholder:text-sm">
+            <button type="button" class="bg-red p-2 shadow-md text-xs text-background w-1/4 rounded-xl lg:p-3 lg:cursor-pointer lg:hover:bg-red/90 lg:text-sm lg:px-2">
+                Sign up
+            </button>
+        </div>
+        <p class="text-paragraph font-light text-sm lg:text-sm">© 2025 OptimusTech. All rights reserved.</p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
